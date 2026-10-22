@@ -1,0 +1,68 @@
+Folder PATH listing
+Volume serial number is 984F-8C8B
+C:.
+|   .dockerignore
+|   .gitignore
+|   app.py
+|   arborescence.txt
+|   docker-compose.yml
+|   Dockerfile
+|   docker_supabase_relay.py
+|   README.md
+|   requirements.txt
+|   
++---.streamlit
+|       config.toml
+|       secrets.toml
+|       
++---assets
+|       .gitkeep
+|       nexthorizon_logo.png
+|       
++---models
+|   |   noms_motifs.json
+|   |   topics_bertopic_details.csv
+|   |   xgb_prediction_bundle.pkl
+|   |   
+|   \---bertopic_motifs
+|           config.json
+|           ctfidf.safetensors
+|           ctfidf_config.json
+|           nlp.ipynb
+|           nlp.py
+|           nlp_bertopic_ameliore.ipynb
+|           prediction_ML (1).ipynb
+|           prediction_ml (3).py
+|           topics.json
+|           topic_embeddings.safetensors
+|           xgb_prediction_bundle_NLP.pkl
+|           
++---pages
+|       01_vue_ensemble.py
+|       02_performance_agents.py
+|       03_analyse_rdv.py
+|       04_annulations.py
+|       05_qualite_donnees.py
+|       
+\---utils
+    |   charts.py
+    |   data_quality.py
+    |   decision.py
+    |   filters.py
+    |   metrics.py
+    |   prediction.py
+    |   preprocessing.py
+    |   supabase.py
+    |   ui.py
+    |   __init__.py
+    |   
+    \---__pycache__
+            charts.cpython-311.pyc
+            data_quality.cpython-311.pyc
+            decision.cpython-311.pyc
+            prediction.cpython-311.pyc
+            preprocessing.cpython-311.pyc
+            supabase.cpython-311.pyc
+            ui.cpython-311.pyc
+            __init__.cpython-311.pyc
+            

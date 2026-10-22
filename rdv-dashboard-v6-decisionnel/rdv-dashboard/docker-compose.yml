@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      # Les modèles peuvent être volumineux (BERTopic notamment) : on les
+      # monte en volume plutôt que de les copier dans l'image Docker.
+      - ./models:/app/models:ro
+      - ./.streamlit/secrets.toml:/app/.streamlit/secrets.toml:ro
+    restart: unless-stopped

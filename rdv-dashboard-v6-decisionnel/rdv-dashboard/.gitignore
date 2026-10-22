@@ -1,0 +1,7 @@
+.streamlit/secrets.toml
+models/*.pkl
+models/bertopic_motifs/
+models/noms_motifs.json
+__pycache__/
+*.pyc
+.venv/
